@@ -1,13 +1,21 @@
 {
   "name": "markdown-engine",
   "version": "0.0.1",
-  "description": "{{markdown}}",
+  "description": "A markdown + {{}} engine for Express",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": {
+    "name": "Kyle DeTella",
+    "email": "kdetella@gmail.com"
+  },
+  "homepage": "https://github.com/kyledetella/markdown-engine",
+    "repository": {
+    "type": "git",
+    "url": "https://github.com/kyledetella/markdown-engine.git"
+  },
+  "license": "MIT",
   "dependencies": {
     "highlight.js": "^8.5.0",
     "marked": "^0.3.3",
