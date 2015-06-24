@@ -4,14 +4,14 @@
   "description": "A markdown + {{}} engine for Express",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test/**/*.js"
   },
   "author": {
     "name": "Kyle DeTella",
     "email": "kdetella@gmail.com"
   },
   "homepage": "https://github.com/kyledetella/markdown-engine",
-    "repository": {
+  "repository": {
     "type": "git",
     "url": "https://github.com/kyledetella/markdown-engine.git"
   },
@@ -20,5 +20,12 @@
     "highlight.js": "^8.5.0",
     "marked": "^0.3.3",
     "q": "^1.2.0"
+  },
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "lodash.assign": "^3.2.0",
+    "lodash.clone": "^3.0.2",
+    "lodash.isobject": "^3.0.2",
+    "mocha": "^2.2.5"
   }
 }

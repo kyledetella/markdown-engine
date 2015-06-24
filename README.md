@@ -3,6 +3,20 @@
 
 A lightweight markdown engine for Express.
 
+## Development
+
+### Install
+
+```bash
+$ npm i
+```
+
+### Test
+
+```bash
+$ npm t
+```
+
 ## Example
 
 ### app.js
